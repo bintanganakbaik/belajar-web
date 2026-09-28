@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-danger text-center mt-4" >belajar pakai bootstrap</h1>
+        <!--
+         primary(biru),
+         secondary(abu),
+         danger(merah),
+         warning(kuning),
+         success(hijau),
+         info(biru muda),
+         dark(hitam)
+         light(putih)
+        -->
+        <div class="d-flex justify-content-center gap-2 mt-4">
+            <button class="btn btn-primary rounded-pil">click me</button>
+            <button class="btn btn-secondary">click me</button>
+            <button class="btn btn-danger">click me</button>
+            <button class="btn btn-warning text-success">click me</button>
+            <button class="btn btn-success">click me</button>
+            <button class="btn btn-info">click me</button>
+            <button class="btn btn-dark">click me</button>
+        </div>
+    </div>
+
+    <header class="bg-primary mt-4 p-3">
+        <div class="container d-flex align-items-center">
+            <div>
+                <img src="assets/images/logo.png" width="70px">
+            </div>
+            <div class="ms-auto">
+                <a class="text-light text-decoration-none" href="#">Home</a>
+                <a class="text-light text-decoration-none" href="#">About</a>
+                <a class="text-light text-decoration-none" href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- grid system -->
+    <div class="row">
+        <div class="col-md-4">
+            <img src="assets/images/banner.jpg" width="100%" alt="">
+        </div>
+        
+        <div class="col-md-8">
+            <h2>INI JUDUL BERITA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        </div>
+    </div>
+
+</body>
+</html>

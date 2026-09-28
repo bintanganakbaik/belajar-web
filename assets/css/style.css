@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'segoe ui', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header{
+    background-color: #018f26;
+}
+
+.header-logo img{
+    width: 60px;
+    margin: 10px 0;
+}
+
+.header-content{
+    display: flex;
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.header-content h1{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+.header-sosmed{
+    margin-left: auto;
+}
+
+.header-sosmed img{
+    width: 40px;
+    margin: 30px 5px 0 0;
+}
+
+.header-sub{
+    background-color: #00631a;
+}
+
+.header-nav a {
+    padding: 15px 20px;
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.banner img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.tagline{
+    text-align: center;
+    background-color: #018f26;
+    color: #ffff;
+    margin: -5px;
+}
+
+.tagline h3{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+}
+
+.tagline p{
+    font-size: 20px;
+    margin: 0;
+}
+
+#berita{
+    padding: 40px 0;
+}
+
+.container h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.berita-data{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 15px;
+}
+
+.berita-gambar img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.berita-deskripsi h4{
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.berita-tombol{
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #018f26;
+    border-radius: 10px;
+}
+
+.main-footer{
+background-color: #000000;
+color: #ffff;
+padding: 20px 0;
+
+}
+
+.container-footer{
+display: flex;
+padding-left: 70px;
+}
+
+.footer-data{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+.footer img{
+width: 100px;
+height: 100px;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+.footer-deskripsi{
+margin-left: 10px;
+}
+
+.sub-footer{
+background-color: #515552;
+color: #ffff;
+text-align: center;
+padding: 10px 0;
+}
